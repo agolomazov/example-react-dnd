@@ -1,0 +1,45 @@
+.App {
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.form-column {
+	border: 1px solid #ddd;
+	background: #fefefe;
+	width: 500px;
+	margin: 0 30px;
+	height: 100%;
+	padding: 0 30px;
+}
+
+.form-group {
+	border: 1px solid #ccc;
+	background: #fefefe;
+	width: 460px;
+	min-height: 250px;
+	margin: 0 auto 30px;
+	padding: 0 20px 20px;
+}
+
+.form-group h4 {
+	text-transform: uppercase;
+}
+
+.form-item {
+	background: #fff;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	padding: 15px 20px;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0 0 10px;
+}
+
+.form-group > .form-item:last-child {
+	margin: 0;
+}
